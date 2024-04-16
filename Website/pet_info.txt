@@ -1,0 +1,3 @@
+1:JohnCena:cat:dog:11-15:male:get along with dogs:don't get along with cats:suitable for children:swdwd:John:Cena:johncena@gmail.com
+2:JohnCena:cat:sasa:6-10:male:get along with dogs:get along with cats:not suitable for children:asas:sasa:sas:johncena@gmail.com
+3:habla:dog:wabla:1-5:male:get along with dogs:get along with dogs:suitable for children:Hello, my name is someyj kdc e. dcjbfdujnejn.dc djcdkc,:John:Cena:someone@gmail.com

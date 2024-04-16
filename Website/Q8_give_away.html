@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Project</title>
+  <link rel="stylesheet" href="Q8_project.css">
+  <link rel="shortcut icon" type="image/png" href="pet-logo.jpg">
+</head>
+<body>
+  <div class="grid-container"> 
+    <div class="header"> <!--Contains the header-->
+	<div class="center">
+	<header></header>
+		 </div></div>
+		 
+    <div class="sidebar"> &nbsp; <!--Contains the Side menu-->
+		<ul>
+			<li class="Home" ><a href="/home" class="active">Home page</a></li>
+			<li class="Home" ><a href="/find" class="active">Find a dog/cat</a></li>
+			<li class="Home" ><a href="/dogcare" class="active">Dog Care</a></li>
+			<li class="Home"><a href="/catcare" class="active">Cat Care</a></li>
+			<li class="Home" style="background-color: darkgreen;" ><a href="/giveaway" class="active">Have a pet to give away</a></li>
+			<li class="Home" ><a href="/contact" class="active">Contact us</a></li>
+			<li class="Home"><a href="/createaccount" class="active">Create an account</a></li>
+		</ul>
+		</div>
+		
+		<!--Contains the content area-->
+    <div class="main" style="text-align:center;" ><form name= "age_category" id="giveawayForm" action="/giveawayserver" method="post">
+	
+	<div style="font-size:50px;">Pet giveaway </div> <br>
+	
+	<label><input type="checkbox" id="checkbox1" name="dog" value="dog" >Dog</label>
+	<label><input type="checkbox" id="checkbox2" name="cat"  value="cat" >Cat</label> <br><br>
+	
+	<label>Breed of Dog <input type="text" id="dogbreed1" name="dogbreed" ></label> <br><br>
+	<label>Breed of Cat <input type="text" id="catbreed1" name="catbreed"></label> <br><br>
+	<label>Mix Breed<input type="checkbox" id="checkbox3" name="mixbreed" value="mixbreed"></label> <br><br>
+	
+	Age of animal (in human years): <select name="animalage" id ="animalage" > 
+		      <option>Age of animal</option>
+			  <option value="Less than 1 years old">Less than 1 years old</option>
+			  <option value="1-5">1-5</option>
+			  <option value="6-10">6-10</option>
+			  <option value="11-15">11-15</option>
+			  <option value="16-20">16-20</option>
+			  <option value="Over 20">Over 20</option>
+	</select><br><br>
+	
+	Animal Gender: 
+	<label>Male<input type="checkbox" id="checkbox4" name="male" value="male" ></label> 
+	<label>Female<input type="checkbox" id="checkbox5" name="female" value="female" ></label> <br><br>
+	
+	<label>Get along with other dogs<input type="radio" id="radio15" name="getalongwithdogs" value ="getalongwithdogs" ></label><br><br>
+	<label>Get along with other cats<input type="radio" id="radio25" name="getalongwithcats"   value ="getalongwithcats"></label> <br><br>
+	
+	Suitable for a family with small children: 
+	<select name="familycategory" id ="agecategory">  
+		      <option>Answer</option>
+			  <option value="yes">Yes</option>
+			  <option value="no">No</option>
+	</select><br><br>
+	
+	<label>Comment below:<br><textarea id="comment" name="comment" rows="5" cols="50"></textarea></label> <br><br><br>
+	
+	Current owner's information <br><br>
+	<label>First Name: <input type="text" id="firstname" name="firstname"></label> &nbsp;
+	<label>Family Name: <input type="text" id="familyname" name="familyname"></label> <br><br>
+	<label>Email: <input type="text" id="email" name="email"></label> <br><br><br><br>
+	
+	<input type="submit" id="submit1" name="submit" onclick="return validateForm()" style="background-color:green"> &nbsp; &nbsp;
+	<input type="reset" id="reset1" name="reset" style="background-color:red">
+	</form></div>
+    <div class="footer"><br>	<!--Contains the footer-->
+		<footer></footer>
+	</div> 
+  </div>
+  <script src="project.js"></script>
+</body>
+</html>
+
+
+

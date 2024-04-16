@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Project</title>
+  <link rel="stylesheet" href="Q8_project.css">
+  <link rel="shortcut icon" type="image/png" href="pet-logo.jpg">
+</head>
+<body>
+  <div class="grid-container"> 
+    <div class="header"> <!--Contains the header-->
+	<div class="center">
+	<header><h1 class="header">Dogs &amp; Cats Adoption Center  <span id="current-time"></span><a href="Q8_home.html"> <!-- Borrowed the image from an AI-Image generator (created my own logo) online named "deepdreamgenerator" --><!--https://deepdreamgenerator.com/processing/3789769?ut=OimTfIt8NGc5-->
+		 &nbsp; <img src="pet-logo.jpg" alt="pet_logo" class="pet_image" width="93" height="100">  
+		 </a></h1></header>
+		 </div></div>
+		 
+    <div class="sidebar"> &nbsp; <!--Contains the Side menu-->
+		<ul>
+			<li class="Home"><a href="Q8_home.html" class="active">Home page</a></li>
+			<li class="Home" style="background-color: darkgreen;"><a href="Q8_browse.html" class="active">Browse Available Pets</a></li>
+			<li class="Home"><a href="Q8_find.html" class="active">Find a dog/cat</a></li>
+			<li class="Home"><a href="Q8_dog_care.html" class="active">Dog Care</a></li>
+			<li class="Home"><a href="Q8_cat_care.html" class="active">Cat Care</a></li>
+			<li class="Home"><a href="Q8_give_away.html" class="active">Have a pet to give away</a></li>
+			<li class="Home"><a href="Q8_contact.html" class="active">Contact us</a></li>
+		</ul>
+		</div>
+		
+    <div class="main"><h1 style = "column-gap:200px;" >
+		<table cellspacing = "100" >
+		<tr>
+		<td>
+			<form ><fieldset class="dog_fieldset" > <img src="dog_image.png" alt="pet_logo" class="dog_image12" width="300" height="300"> <br>
+			Dog : mix breed <br>5 years old, Male <br><br>Gets along with other dogs<br>Suitable for a family with small children<br><br> Owner name: Jeff Jeff <br> Email:Jeff_jeff@gmail.com<br>
+			<button id="myButton" onclick="interested()" style="width:100px;height:40px;">Interested</button>
+		</fieldset></form>
+		</td>
+		<td><form><fieldset class="cat_fieldset"> <img src="cat_image.png" alt="pet_logo" class="cat_image12" width="300" height="300"> <br>
+			Cat : mix breed <br>2 years old, Male <br><br>Gets along with other cats and dogs<br>Suitable for a family with small children<br><br> Owner name: John Johnson <br> Email:John_johnson@yahoo.com<br>
+			<button id="myButton" onclick="interested()" style="width:100px;height:40px;">Interested</button></fieldset></form> 
+		</td>
+		</tr>
+		</table>
+	    </h1></div><!--Contains the content area-->
+	<!-- images for the dog and cat have been taken fron the ai art generator website called art guru : https://www.artguru.ai/fr/-->
+
+	
+    <div class="footer"><br> <!--Contains the footer-->
+		<footer><a href="Q8_disclaimer.html" style="color:black;">Privacy/Disclaimer Statement</a></footer>
+		</div> 
+  </div>
+  <script src="project.js"></script>
+</body>
+</html>
